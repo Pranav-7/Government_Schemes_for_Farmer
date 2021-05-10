@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+.carousel-content h2{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+
+  .carousel-content p{
+    position: absolute;
+    width:70%;
+    top: 20%;
+   margin-left: 20%;
+   font-size: 15px;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+  
+
+  .tales {
+    width: 90%;
+   
+  }
+  .carousel-inner{
+    margin-top: 3%;  
+    margin-left: 5%;
+    width:90%;
+    max-height: 670px !important;
+  }
+
+  .schemes{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+   margin-bottom: 3%;
+   line-height: 3px;
+  }
+
+  .carousel-content1 p{
+    position: absolute;
+    width:80%;
+    top: 20%;
+   margin-left: 10%;
+   font-size: 15px;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+
+  .carousel-content1 h2{
+    position: absolute;
+    width:70%;
+    top: 10%;
+   margin-left: 10%;
+   font-size: 15px;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+
+
+
+  

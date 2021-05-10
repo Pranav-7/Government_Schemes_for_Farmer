@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.organic{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+h4{
+    font-weight: 600;
+}
+h5{
+  font-weight: 700;
+}
+p{
+    font-size:  15px;
+}
+
+h6{
+    font-weight: 600;
+}
+
+.tejas{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.note{
+    display: flex;
+}
+
+.bottom{
+    margin-bottom: 2%;
+}
+
+.tales {
+    width: 60%;
+   
+  }
+  .carousel-inner{
+      margin-left: 20%;
+    width:60%;
+    max-height: 900px !important;
+  }
+
+
+  .card{
+    margin-left: 10%;
+}
+
+.head{
+    width: 100%;
+    height: 90px;
+   
+    align-items: center;
+    margin-bottom:5%;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+
+.head h5{
+   text-align: center;
+   margin-left: 10%;
+}
+
+.govscheme{
+margin-top:5%;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.col{
+    flex-basis: 50%;
+}

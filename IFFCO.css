@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    padding: 1rem 8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: green;
+}
+
+#navbarSupportedContent > button{
+    background: green;
+    font-weight: 600;
+    padding:0.4rem 1.4rem;
+    border-radius: 30px;
+}
+
+.site-content{
+   width: 100%;
+   height: 100vh;
+    background-image: url('img/pexels-kaboompics-com-5980.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title, ,site-desc{
+    color: white;
+    font-family: 'Roghteous';
+}
+
+.site-title{
+    margin-top: 30%;
+    margin-bottom:6%;
+    font-size:50px;
+}
+
+.site-desc{
+    font-size: 14px;
+    padding-left: 15%;
+}
+
+
+
+
+.d-flex{
+    
+  
+
+}
+
+.arrange{
+    margin-top: -18.4%;
+   margin-left: 40%;
+    
+}
+.int p{
+    width: 80%;
+    margin-left: 10%;
+    color: #fff;
+    margin-top:30%;
+    font-size: 20px;
+    font-weight: 900;
+}
+.site-btn1{
+    
+    background-color: black;
+    color:white;
+}
+
+.site-btn2{
+    margin-top:-250%;
+    margin-left: 15%;
+    background-color: white;
+}
+
+.site-btn1, .site-btn2{
+  
+   
+   
+}
+
+
+
+
+
+
+
+.splcard {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('img/pexels-cátia-matos-1072179.jpg');
+    background-size: cover;
+
+}
+
+
+
+.container{
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.container .card{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    margin:20px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background:rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.container .card .content{
+    padding: 20px;
+    transform: translateY(100px);
+    opacity: 0;
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+.container .card:hover .content{
+    
+    transform: translateY(0px);
+    opacity: 1;
+
+}
+
+
+
+.container .card .content h3{
+    margin-top: 60px;
+    font-size: 1.8em;
+    color:white;
+    z-index: 1;
+   
+}
+
+.container .card .content p{
+    font-size: 1em;
+    color:white;
+    font-weight:300;
+
+}
+
+
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 20px;
+    background: white;
+    color:black;
+    border-radius:20px;
+    text-decoration: none;
+    font-weight:500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('img/pexels-archie-binamira-708798.jpg');
+    background-size: cover;
+
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 300;
+    color: white;
+}
+
+.contact .content p{
+
+font-weight: 300;
+color: white;
+}
+
+.contactcr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contactcr .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contactcr .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contactcr .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.contactcr .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contactcr .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: white;
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5%;
+    color: #666;
+}
+
+
+.contactForm .inputBox input:focus ~span,
+.contactForm .inputBox input:valid ~span,
+.contactForm .inputBox textarea:focus ~span,
+.contactForm .inputBox textarea:valid ~span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media(max-width: 991px)
+{
+    .contact{
+        padding: 50px;
+    }
+    .contactcr{
+        flex-direction: column;
+    }
+    .contactcr .contactInfo{
+        margin-bottom: 40px;
+    }
+    .contactcr .contactInfo,
+    .contactForm{
+        width: 100%;
+    }
+}

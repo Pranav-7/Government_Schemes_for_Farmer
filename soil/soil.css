@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.thane{
+   margin-top:10%;
+    align-items: center;
+
+}
+
+.head{
+    margin-left: 20%;
+    margin-top:8%;
+}

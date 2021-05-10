@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    
+    align-items:center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('img/pexels-cats-coming-421999.jpg');
+    background-size: cover;
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin:20px auto;
+    border: none;
+    outline: none;
+    font-size:20px;
+    border-bottom: 2px solid #4ca;
+    background:transparent;
+    color: #fff;
+    
+}
+
+form h2{
+    margin-bottom: 30px;
+    color: #fff;
+    
+}
+
+::placeholder{
+    color: #fff;
+}
+

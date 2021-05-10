@@ -1,0 +1,39 @@
+*{
+   
+    font-family: sans-serif;
+}
+
+.infor{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+h4{
+    font-weight: 600;
+}
+h5{
+  font-weight: 700;
+}
+p{
+    font-size:  13px;
+}
+
+.formation table{
+    width: 80%;
+    margin-left:10%;
+}
+
+td{
+    font-size: 13px;
+}
+.can{
+    
+        width: 80%;
+        margin-left:10%;
+    }
+h6{
+    font-weight: 600;
+}
